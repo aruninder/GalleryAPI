@@ -41,36 +41,6 @@ A full-stack MERN application for managing a product gallery with user authentic
 - **Vanilla JavaScript** - Dynamic functionality
 - **Fetch API** - HTTP requests
 
-## 📁 Project Structure
-
-```
-product-gallery-api/
-├── backend/
-│   ├── controllers/
-│   │   ├── authController.js      # Authentication logic
-│   │   └── productController.js   # Product CRUD operations
-│   ├── models/
-│   │   ├── User.js               # User schema
-│   │   └── Product.js            # Product schema
-│   ├── routes/
-│   │   ├── auth.js               # Authentication routes
-│   │   └── products.js           # Product routes
-│   ├── middleware/
-│   │   ├── auth.js               # JWT verification
-│   │   ├── upload.js             # Multer configuration
-│   │   └── errorHandler.js       # Error handling
-│   ├── config/
-│   │   ├── database.js           # MongoDB connection
-│   │   └── cloudinary.js         # Cloudinary configuration
-│   └── server.js                 # Main server file
-├── frontend/
-│   ├── index.html                # Frontend UI
-│   └── app.js                    # Frontend JavaScript
-├── .env                          # Environment variables
-├── .env.example                  # Environment variables template
-└── package.json                  # Dependencies and scripts
-```
-
 ## 🚀 Getting Started
 
 ### Prerequisites
